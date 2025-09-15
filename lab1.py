@@ -20,10 +20,7 @@ mid = sum/count
 for i in range(N):
   for j in range(N):
     matrix[i][j] -= mid
-<<<<<<< HEAD
 print(f"Среднее значение = {mid}")
-=======
 print("Новая матрица:")
->>>>>>> feature/lab1-lekswell
 for row in matrix:
   print(row)
