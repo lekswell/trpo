@@ -8,6 +8,7 @@ N = int(input())
 sum = 0
 count = 0
 matrix = [[random.randint(-5,5) for i in range(N)] for i in range(N)]
+print("Исходная матрица:")
 for row in matrix:
   print(row)
 for i in range(N):
@@ -19,6 +20,10 @@ mid = sum/count
 for i in range(N):
   for j in range(N):
     matrix[i][j] -= mid
+<<<<<<< HEAD
 print(f"Среднее значение = {mid}")
+=======
+print("Новая матрица:")
+>>>>>>> feature/lab1-lekswell
 for row in matrix:
   print(row)
