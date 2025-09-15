@@ -19,5 +19,6 @@ mid = sum/count
 for i in range(N):
   for j in range(N):
     matrix[i][j] -= mid
+print(f"Среднее значение = {mid}")
 for row in matrix:
   print(row)
