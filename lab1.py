@@ -8,6 +8,8 @@ N = int(input())
 sum = 0
 count = 0
 matrix = [[random.randint(-5,5) for i in range(N)] for i in range(N)]
+for row in matrix:
+  print(row)
 for i in range(N):
   for j in range(N):
     if matrix[i][j] > 0:
