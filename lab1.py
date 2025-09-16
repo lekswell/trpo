@@ -22,5 +22,5 @@ for i in range(N):
     matrix[i][j] -= mid
 print(f"Среднее значение = {mid}")
 print("Новая матрица:")
-for row in matrix:
+for row in matrix: #l
   print(row)
