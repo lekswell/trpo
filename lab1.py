@@ -5,7 +5,7 @@
 # Выходные данные – исходная матрица D и матрица M, полученная после перестановки.
 import random
 N = int(input())
-sum = 0
+sum = 1
 count = 0
 matrix = [[random.randint(-5,5) for i in range(N)] for i in range(N)]
 print("Исходная матрица:")
